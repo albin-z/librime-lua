@@ -1,5 +1,5 @@
-on: [push, pull_request]
-
+on: 
+  workflow_call
 jobs:
   macos:
     uses: rime/librime/.github/workflows/macos-build.yml@master
